@@ -22,9 +22,9 @@ main {
 }
 
 section {
-  height: 600px;
   background-color: #0086ff;
   margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 section::after {
