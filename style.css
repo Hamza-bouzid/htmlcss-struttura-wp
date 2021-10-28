@@ -9,11 +9,10 @@
   margin: 20px auto;
 }
 
-header,
-main,
-section,
-footer {
-  width: 100%;
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 header {
@@ -66,6 +65,6 @@ section div {
 }
 
 footer {
-  height: 50px;
+  height: 60px;
   background-color: #8801fe;
 }
