@@ -9,12 +9,6 @@
   margin: 20px auto;
 }
 
-.container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 header {
   height: 120px;
   background-color: #e579e6;
@@ -31,6 +25,12 @@ section {
   height: 600px;
   background-color: #0086ff;
   margin-bottom: 10px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 section div {
